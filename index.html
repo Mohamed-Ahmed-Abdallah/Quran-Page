@@ -8,15 +8,15 @@
     <style>
         * {
             margin: 0px;
-            padding: 0px
+            padding: 0px;
         }
 
         body {
             direction: rtl;
-            text-align: justify;
             background-color: moccasin;
             background-image: url(img/bg1.JPG);
-            background-size: 100%;
+            background-size: auto 100%;
+            font-family: cursive;
         }
 
         .ReadAya {
@@ -31,15 +31,16 @@
         }
 
         .ReadAya .basmala {
-            background-color: lightskyblue;
             text-align: center;
             background-image: url(img/bg2.jpg);
             background-size: 100% 100%;
+            border-bottom: 1px solid black;
         }
 
         .ReadAya ul {
             width: 90%;
             margin: auto;
+            text-align: justify;
         }
 
         .ReadAya ul .LineAya {
@@ -56,14 +57,14 @@
             margin: 0px auto 50px auto;
             overflow: auto;
             line-height: 60px;
-            border: 1px solid black;
-            background-image: url(img/bg3.JPG);
-            background-size: 100% 100%;
+            border: 2px solid rgb(99, 205, 240);
+            color: white;
         }
 
         .tafseer .tafseer-content {
             width: 90%;
             margin: auto;
+            text-align: justify;
         }
 
         .tafseer .tafseer-content h1 {
@@ -71,12 +72,18 @@
             margin-bottom: 20px;
         }
 
+        .tafseer .tafseer-content h2 {
+            text-align: center;
+            font-size: 30px;
+            color: yellow;
+        }
+
         .tafseer .tafseer-content p {
             font-size: 30px;
         }
 
         .tafseer .tafseer-content hr {
-            border: 2px solid red;
+            border: 2px solid rgb(99, 205, 240);
             margin: 20px 0px;
         }
 
@@ -84,7 +91,31 @@
             .ReadAya {
                 width: 95%;
                 font-size: 25px;
-                font-weight: 900
+                line-height: 50px;
+                background-image: none;
+                background-color: rgb(99, 205, 240);
+                padding: 2% 0px;
+            }
+
+            .ReadAya .basmala {
+                width: 90%;
+                margin: auto;
+                padding: 10px;
+                text-align: center;
+                background-image: url(img/bg2.jpg);
+                background-size: 100% 100%;
+                border: 2px solid black;
+                padding: 10px;
+            }
+
+            .ReadAya ul {
+                width: 90%;
+                margin: auto;
+                padding: 10px;
+                background-image: url(img/bg2.jpg);
+                background-size: 100% 100%;
+                border: 2px solid black;
+                border-top: none;
             }
 
             .tafseer {
@@ -97,8 +128,13 @@
 
             .tafseer .tafseer-content h1 {
                 text-align: center;
-                font-size: 27px;
+                font-size: 25px;
                 margin-bottom: 20px;
+            }
+
+            .tafseer .tafseer-content h2 {
+                text-align: center;
+                font-size: 25px;
             }
 
             .tafseer .tafseer-content p {
@@ -142,33 +178,39 @@
     <div class="tafseer">
         <div class="tafseer-content">
             <h1>التفسير الميسر لسورة الفاتحة</h1>
+            <h2>الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ</h2>
             <p>
                 (الحَمْدُ للهِ رَبِّ العَالَمِينَ) الثناء على الله بصفاته التي كلُّها أوصاف كمال، وبنعمه الظاهرة
                 والباطنة، الدينية والدنيوية، وفي ضمنه أَمْرٌ لعباده أن يحمدوه، فهو المستحق له وحده، وهو سبحانه
                 المنشئ للخلق، القائم بأمورهم، المربي لجميع خلقه بنعمه، ولأوليائه بالإيمان والعمل الصالح.
             </p>
             <hr>
+            <h2>الرَّحْمَٰنِ الرَّحِيمِ</h2>
             <p>
                 (الرَّحْمَنِ) الذي وسعت رحمته جميع الخلق، (الرَّحِيمِ)، بالمؤمنين، وهما اسمان من أسماء الله تعالى.
             </p>
             <hr>
+            <h2>مَالِكِ يَوْمِ الدِّينِ</h2>
             <p>
                 وهو سبحانه وحده مالك يوم القيامة، وهو يوم الجزاء على الأعمال. وفي قراءة المسلم لهذه الآية في كل ركعة
                 من صلواته تذكير له باليوم الآخر، وحثٌّ له على الاستعداد بالعمل الصالح، والكف عن المعاصي والسيئات.
             </p>
             <hr>
+            <h2>إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ</h2>
             <p>
                 إنا نخصك وحدك بالعبادة، ونستعين بك وحدك في جميع أمورنا، فالأمر كله بيدك، لا يملك منه أحد مثقال ذرة.
                 وفي هذه الآية دليل على أن العبد لا يجوز له أن يصرف شيئًا من أنواع العبادة كالدعاء والاستغاثة والذبح
                 والطواف إلا لله وحده، وفيها شفاء القلوب من داء التعلق بغير الله، ومن أمراض الرياء والعجب، والكبرياء.
             </p>
             <hr>
+            <h2>اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ</h2>
             <p>
                 دُلَّنا، وأرشدنا، ووفقنا إلى الطريق المستقيم، وثبتنا عليه حتى نلقاك، وهو الإسلام، الذي هو الطريق
                 الواضح الموصل إلى رضوان الله وإلى جنته، الذي دلّ عليه خاتم رسله وأنبيائه محمد صلى الله عليه وسلم،
                 فلا سبيل إلى سعادة العبد إلا بالاستقامة عليه.
             </p>
             <hr>
+            <h2>صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ</h2>
             <p>
                 طريق الذين أنعمت عليهم من النبيين والصدِّيقين والشهداء والصالحين، فهم أهل الهداية والاستقامة، ولا
                 تجعلنا ممن سلك طريق المغضوب عليهم، الذين عرفوا الحق ولم يعملوا به، وهم اليهود، ومن كان على شاكلتهم،
